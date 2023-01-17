@@ -9,4 +9,9 @@ public class Student extends Person{
     public String Do (){
         return "study";
     }
+
+    @Override
+    public String toString() {
+        return "Student name's " + getName()+" job "+ getJob();
+    }
 }

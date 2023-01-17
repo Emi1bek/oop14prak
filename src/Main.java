@@ -6,9 +6,10 @@ public class Main {
         Teacher teacher = new Teacher("Ulukbek","Teacher");
         Student student = new Student("Emilbek","student");
 
-
-        student.Do();
-        teacher.Do();
+        System.out.println(teacher);
+        System.out.println(student);
+        System.out.println(student.Do());
+        System.out.println(teacher.Do());
 
     }
 }
