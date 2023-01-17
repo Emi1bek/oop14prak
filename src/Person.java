@@ -25,4 +25,8 @@ public class Person {
     public void setJob(String job) {
         this.job = job;
     }
+    public String Do(){
+        return "this ";
+
+                  }
 }
